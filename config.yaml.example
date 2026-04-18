@@ -1,0 +1,30 @@
+# Скопируйте в config.yaml и заполните (config.yaml в .gitignore).
+gamee:
+  api_url: https://api2.gamee.com/
+  life_currency_id: 5
+  gold_currency_id: 65
+  ticket_currency_id: 1
+  money_currency_id: 4
+  life_micro_divisor: 1000000
+  gold_micro_divisor: 1000000
+  ticket_micro_divisor: 1000000
+  reward_micro_divisor: 1000000
+  money_micro_divisor: 10000
+  gold_estimate_usd_micro_divisor: 1000000000000
+  check_task_id: 2950
+telegram:
+  bot_token: ""
+  chat_id: ""
+  notify_on_move: true
+  notify_on_daily_claim: true
+  notify_on_season_claim: true
+  summary_interval_seconds: 3600
+telethon:
+  api_id: 0
+  api_hash: ""
+  gamee_ref: null
+  telegram_referral_ref: null
+paths:
+  accounts: accounts.yaml
+ui:
+  window_title: Gamee — кубик доски

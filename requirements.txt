@@ -1,0 +1,5 @@
+PySide6
+httpx[socks]
+curl_cffi
+PyYAML
+telethon
